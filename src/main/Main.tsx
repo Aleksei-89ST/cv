@@ -22,7 +22,7 @@ const Main = () => {
                         <Skills/>
                     </div>
                     <div className={style.imageContainer}>
-                        <img src={Image} className={style.image}/>
+                        <img src={Image} alt="avatar" className={style.image}/>
                     </div>
                 </div>
             </div>
