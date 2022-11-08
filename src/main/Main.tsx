@@ -1,6 +1,6 @@
 import style from './Main.module.css'
 import styleContainer from '../common/Container.module.css'
-import Image from '../images/photo_.jpg'
+import Image from '../images/photo.jpg'
 import Header from "../header/Header";
 import Navigation from "../navigation/Navigation";
 import Skills from "../skills/Skills";
