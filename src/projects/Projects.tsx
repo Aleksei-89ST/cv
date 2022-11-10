@@ -1,7 +1,7 @@
 import style from "./Projects.module.css";
 import styleContainer from "../common/Container.module.css";
 import Project from "./project/Project";
-import Car from "../images/vipcar.png";
+import car from "../images/vipcar.png";
 import fitness from "../images/fitnes.jpg";
 import mern from "../images/Mern.png";
 import blog from "../images/blog.png";
@@ -9,6 +9,8 @@ import code from "../images/editor.jpg";
 import burger from "../images/burger.jpg";
 import network from "../images/network.png";
 import pizza from "../images/pizza.png";
+import cart from "../images/cart.png";
+import news from "../images/native.png";
 import Header from "../header/Header";
 
 const Projects = () => {
@@ -21,7 +23,17 @@ const Projects = () => {
     {
       title: " Rent-VIP-Car",
       link: "https://github.com/Aleksei-89ST/project-rent-car-app",
-      image: Car,
+      image: car,
+    },
+    {
+      title: " Shopping-Cart",
+      link: "https://github.com/Aleksei-89ST/project-rent-car-app",
+      image: cart,
+    },
+    {
+      title: " News-Blog-RN",
+      link: "https://github.com/Aleksei-89ST/project-rent-car-app",
+      image: news,
     },
     {
       title: "Blog-MERN-Back",
