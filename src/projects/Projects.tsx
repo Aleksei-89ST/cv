@@ -22,16 +22,16 @@ const Projects = () => {
     },
     {
       title: " Rent-VIP-Car",
-      link: "https://github.com/Aleksei-89ST/project-rent-car-app",
+      link: "https://project-rent-car-app.vercel.app/",
       image: car,
     },
     {
       title: " Shopping-Cart",
-      link: "https://github.com/Aleksei-89ST/project-rent-car-app",
+      link: "https://shopping-cart-brown-two.vercel.app/store",
       image: cart,
     },
     {
-      title: " News-Blog-RN",
+      title: " News-React-Native",
       link: "https://github.com/Aleksei-89ST/project-rent-car-app",
       image: news,
     },
@@ -62,7 +62,7 @@ const Projects = () => {
     },
     {
       title: "React-Pizza",
-      link: "https://github.com/Aleksei-89ST/React-Pizza",
+      link: "https://react-pizza-ten.vercel.app/",
       image: pizza,
     },
   ];
