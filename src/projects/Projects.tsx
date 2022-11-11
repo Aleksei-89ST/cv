@@ -6,11 +6,13 @@ import fitness from "../images/fitnes.jpg";
 import mern from "../images/Mern.png";
 import blog from "../images/blog.png";
 import code from "../images/editor.jpg";
-import burger from "../images/burger.jpg";
 import network from "../images/network.png";
 import pizza from "../images/pizza.png";
 import cart from "../images/cart.png";
 import news from "../images/native.png";
+import collection from "../images/colection.png"
+import halmahera from "../images/halmahera.jpg"
+import iphone from "../images/iphone.jpg"
 import Header from "../header/Header";
 
 const Projects = () => {
@@ -27,7 +29,7 @@ const Projects = () => {
     },
     {
       title: " Shopping-Cart",
-      link: "https://shopping-cart-brown-two.vercel.app/store",
+      link: "https://shopping-cart-sandy.vercel.app/",
       image: cart,
     },
     {
@@ -51,9 +53,9 @@ const Projects = () => {
       image: code,
     },
     {
-      title: "Restaurant-Burger",
-      link: "react-app-burger-gules.vercel.app/",
-      image: burger,
+      title: "React-Pizza",
+      link: "https://react-pizza-ten.vercel.app/",
+      image: pizza,
     },
     {
       title: "Social-Network",
@@ -61,10 +63,21 @@ const Projects = () => {
       image: network,
     },
     {
-      title: "React-Pizza",
-      link: "https://react-pizza-ten.vercel.app/",
-      image: pizza,
+      title: "Photo-Collection",
+      link: "https://photo-collection-react.vercel.app/",
+      image: collection,
     },
+    {
+      title: "Islands-Halmahera",
+      link: "https://islands-halmahera.vercel.app/",
+      image: halmahera,
+    },
+    {
+      title: "Iphone-14-pro",
+      link: "https://iphone-14-pro-frilance.vercel.app/",
+      image: iphone,
+    },
+  
   ];
   return (
     <div id={"Projects"}>
