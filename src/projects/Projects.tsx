@@ -9,7 +9,7 @@ import code from "../images/editor.jpg";
 import network from "../images/network.png";
 import pizza from "../images/pizza.png";
 import cart from "../images/cart.png";
-import news from "../images/native.png";
+import notes from "../images/notes.jpg";
 import collection from "../images/colection.png"
 import halmahera from "../images/halmahera.jpg"
 import iphone from "../images/iphone.jpg"
@@ -33,9 +33,9 @@ const Projects = () => {
       image: cart,
     },
     {
-      title: " News-React-Native",
-      link: "https://github.com/Aleksei-89ST/project-rent-car-app",
-      image: news,
+      title: " Notes",
+      link: "https://notes-ts-nu.vercel.app/",
+      image: notes,
     },
     {
       title: "Blog-MERN-Back",
