@@ -14,6 +14,8 @@ import collection from "../images/colection.png"
 import halmahera from "../images/halmahera.jpg"
 import iphone from "../images/iphone.jpg"
 import Header from "../header/Header";
+import native from "../images/native.jpg"
+import todo from "../images/todo.png"
 
 const Projects = () => {
   const projects = [
@@ -77,7 +79,16 @@ const Projects = () => {
       link: "https://iphone-14-pro-frilance.vercel.app/",
       image: iphone,
     },
-  
+    {
+      title: "React-Native",
+      link: "https://github.com/Aleksei-89ST/news-blog-react-native",
+      image: native,
+    },
+    {
+      title: "React-Todo",
+      link: "https://github.com/Aleksei-89ST/news-blog-react-native",
+      image: todo,
+    },
   ];
   return (
     <div id={"Projects"}>
