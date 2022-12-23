@@ -7,7 +7,6 @@ import mern from "../images/Mern.png";
 import blog from "../images/blog.png";
 import code from "../images/editor.jpg";
 import network from "../images/network.png";
-import pizza from "../images/pizza.png";
 import cart from "../images/cart.png";
 import notes from "../images/notes.jpg";
 import collection from "../images/colection.png"
@@ -15,12 +14,11 @@ import halmahera from "../images/halmahera.jpg"
 import iphone from "../images/iphone.jpg"
 import Header from "../header/Header";
 import native from "../images/native.jpg"
-import todo from "../images/todo.png"
 
 const Projects = () => {
   const projects = [
     {
-      title: "Project-Fitness",
+      title: "Fitness",
       link: "https://github.com/Aleksei-89ST/project-fitness-app-react-mui",
       image: fitness,
     },
@@ -33,6 +31,11 @@ const Projects = () => {
       title: " Shopping-Cart",
       link: "https://shopping-cart-sandy.vercel.app/",
       image: cart,
+    },
+    {
+      title: "React-Native",
+      link: "https://github.com/Aleksei-89ST/news-blog-react-native",
+      image: native,
     },
     {
       title: " Notes",
@@ -54,14 +57,10 @@ const Projects = () => {
       link: "https://code-editor-webcam-react.vercel.app/",
       image: code,
     },
-    {
-      title: "React-Pizza",
-      link: "https://react-pizza-ten.vercel.app/",
-      image: pizza,
-    },
+   
     {
       title: "Social-Network",
-      link: "social-network-delta.vercel.app/",
+      link: "https://github.com/Aleksei-89ST/social-network-react",
       image: network,
     },
     {
@@ -79,16 +78,8 @@ const Projects = () => {
       link: "https://iphone-14-pro-frilance.vercel.app/",
       image: iphone,
     },
-    {
-      title: "React-Native",
-      link: "https://github.com/Aleksei-89ST/news-blog-react-native",
-      image: native,
-    },
-    {
-      title: "React-Todo",
-      link: "https://github.com/Aleksei-89ST/news-blog-react-native",
-      image: todo,
-    },
+   
+ 
   ];
   return (
     <div id={"Projects"}>
